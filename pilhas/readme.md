@@ -84,6 +84,67 @@ Os métodos a seguir estarão disponíveis na classe Stack:
   esse método devolve o número de elementos contidos na pilha. É
   semelhante à propriedade length de um array.
 
-  **NB:** código-fonte stara neste mesmo repo!
+## Usando a classe Stack
+
+Nesta seção, veremos como usar a classe Stack. Nossa primeira tarefa deve
+ser instanciar a classe Stack que acabamos de criar. Em seguida, podemos
+verificar se ela está vazia (a saída será true porque ainda não adicionamos
+nenhum elemento à nossa pilha):
+
+```js
+const stack = new Stack();
+```
+
+```js
+console.log(stack.isEmpty()); // exibe true
+```
+
+A seguir, vamos adicionar alguns elementos na pilha (faremos um push dos
+números 5 e 8; você pode adicionar elementos de qualquer tipo na pilha):
+
+```js
+stack.push(5);
+stack.push(8);
+```
+
+Se chamarmos o método peek, o número 8 será devolvido porque esse foi o
+último elemento que adicionamos na pilha:
+
+```js
+console.log(stack.peek()); // exibe 8
+```
+
+Vamos adicionar outro elemento:
+
+```js
+stack.push(11);
+console.log(stack.size()); // exibe 3
+console.log(stack.isEmpty()); // exibe false
+```
+
+Adicionamos o elemento 11. Se chamarmos o método size, o resultado será o
+número 3, pois temos três elementos em nossa pilha (5, 8 e 11). Além disso,
+se chamarmos o método isEmpty, a saída será false (temos três elementos em
+nossa pilha). Por fim, vamos acrescentar outro elemento:
+
+```js
+stack.push(15);
+```
+
+Em seguida, vamos remover dois elementos da pilha chamando o método pop
+duas vezes:y
+
+```js
+stack.pop();
+stack.pop();
+
+console.log(stack.size()); // exibe 2
+```
+
+Antes de chamar o método pop duas vezes, nossa pilha tinha quatro
+elementos. Após a execução do método pop duas vezes, a pilha agora tem
+apenas dois elementos: 5 e 8.
+
+**NB:** código-fonte stara neste mesmo repo!
 
 Feito com 💙 por [Yazalde Filimone](https://github.com/yazaldefilimonepinto)
