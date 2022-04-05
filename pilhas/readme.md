@@ -41,7 +41,7 @@ programação, **pela memória do computador para armazenar variáveis e
 chamadas de métodos**, e também pelo histórico do **navegador** (o botão de
 retornar [back] do navegador).
 
-_E importante dizer que se mesmo com tudo isso que falei sobre as pilhas "os teus olhos nao estao brilhando" e a dopamina nao aumentou pra descrobrir a fundo sobre o assunto, aconselho que de um passo atras e pense de facto no que voce e e quer e nao perca tempo aqui._
+**E importante dizer que se mesmo com tudo isso que falei sobre as pilhas "os teus olhos nao estao brilhando" e a dopamina nao aumentou pra descrobrir a fundo sobre o assunto, aconselho que de um passo atras e pense de facto no que voce e e quer e nao perca tempo aqui.**
 
 ## Criaremos a nossa própria classe para representar uma pilha.
 

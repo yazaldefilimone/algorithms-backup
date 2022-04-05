@@ -13,6 +13,10 @@ class Stack {
     const lastElement = this.items[this.items.length - 1];
     return lastElement;
   }
+  size() {
+    const totalItems = this.items.length;
+    return totalItems;
+  }
   isEmpty() {
     const result = this.items.length === 0;
     return result;
