@@ -145,6 +145,6 @@ Antes de chamar o método pop duas vezes, nossa pilha tinha quatro
 elementos. Após a execução do método pop duas vezes, a pilha agora tem
 apenas dois elementos: 5 e 8.
 
-**NB:** código-fonte stara neste mesmo repo!
+**NB:** código-fonte stara neste mesmo repo no caminho : `./src/stack-arry.js!`
 
 Feito com 💙 por [Yazalde Filimone](https://github.com/yazaldefilimonepinto)
