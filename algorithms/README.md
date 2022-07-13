@@ -8,7 +8,7 @@
   <img alt="Languages" src="https://img.shields.io/github/languages/count/yazaldefilimonepinto/algorithms-and-data-structures?color=FFFFFF&labelColor=110C2F">
 </p>
 
-Here I begin my studies of algorithms and data structures.
+Here I begin my studies of algorithms.
 A long journey through the world of computer science that aims to become a great programmer and bring efficient solutions to the community is a big change in my professional life.
 
 see repository of data structure [here](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/algorithms)
