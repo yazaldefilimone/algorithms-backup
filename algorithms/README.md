@@ -1,7 +1,7 @@
 # algorithms-and-data-structures
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=Algorithms and Data Structures&message=Welcome&color=FFFFFF&labelColor=110C2F" alt="Unsplash welcome!" />
+  <img src="https://img.shields.io/static/v1?label=Algorithms&message=Welcome&color=FFFFFF&labelColor=110C2F" alt="Unsplash welcome!" />
   <img alt="License" src="https://img.shields.io/static/v1?label=version&message=1.0&color=FFFFFF&labelColor=110C2F">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=FFFFFF&labelColor=110C2F">
   <img alt="Stars" src="https://img.shields.io/github/stars/yazaldefilimonepinto/algorithms-and-data-structures?color=FFFFFF&labelColor=110C2F">
@@ -10,6 +10,8 @@
 
 Here I begin my studies of algorithms and data structures.
 A long journey through the world of computer science that aims to become a great programmer and bring efficient solutions to the community is a big change in my professional life.
+
+see repository of data structure [here](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/algorithms)
 
 ## Table of Contents
 
