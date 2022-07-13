@@ -11,13 +11,13 @@
 Here I begin my studies of data structures.
 A long journey through the world of computer science that aims to become a great programmer and bring efficient solutions to the community is a big change in my professional life.
 
-see repository of algorithms [here](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/data-structures)
+see repository of algorithms [here](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/tree/master/algorithms)
 
 ## Table of Contents
 
-- [Data Structure](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/data-structure)
-- [Algorithms](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/algorithms)
-- [Computer Science](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/computer-science)
+- [Data Structure](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/tree/master/data-structure)
+- [Algorithms](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/tree/master/algorithms)
+- [Computer Science](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/tree/master/computer-science)
 - [Languages](#languages)
 - [License](#license)
 
