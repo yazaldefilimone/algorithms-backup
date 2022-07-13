@@ -1,4 +1,4 @@
-# algorithms-and-data-structures
+# Algorithms
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Algorithms&message=Welcome&color=FFFFFF&labelColor=110C2F" alt="Unsplash welcome!" />

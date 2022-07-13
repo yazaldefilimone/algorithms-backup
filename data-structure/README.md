@@ -1,4 +1,4 @@
-# algorithms-and-data-structures
+# Data Structures
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Data Structures&message=Welcome&color=FFFFFF&labelColor=110C2F" alt="Unsplash welcome!" />
