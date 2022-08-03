@@ -26,16 +26,18 @@ function Queue() {
   };
 }
 
-var queue = new Queue();
+// var queue = new Queue();
 
-queue.enqueue('Carlos');
-queue.enqueue('Ana');
-queue.enqueue('Lucas');
+// queue.enqueue('Carlos');
+// queue.enqueue('Ana');
+// queue.enqueue('Lucas');
 
-console.log('front:', queue.front());
-console.log('isEmpty:', queue.isEmpty());
-queue.print();
-queue.dequeue();
-queue.print();
-queue.dequeue();
-queue.print();
+// console.log('front:', queue.front());
+// console.log('isEmpty:', queue.isEmpty());
+// queue.print();
+// queue.dequeue();
+// queue.print();
+// queue.dequeue();
+// queue.print();
+
+module.exports = { Queue };
