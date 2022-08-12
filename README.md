@@ -1,5 +1,3 @@
-# algorithms-and-data-structures
-
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Algorithms and Data Structures&message=Welcome&color=FFFFFF&labelColor=110C2F" alt="Unsplash welcome!" />
   <img alt="License" src="https://img.shields.io/static/v1?label=version&message=1.0&color=FFFFFF&labelColor=110C2F">
@@ -11,7 +9,7 @@
 Here I begin my studies of algorithms and data structures.
 A long journey through the world of computer science that aims to become a great programmer and bring efficient solutions to the community is a big change in my professional life.
 
-## Table of Contents
+### Table of Contents
 
 - [Data Structure](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/data-structure)
 - [Algorithms](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/algorithms)
@@ -21,17 +19,14 @@ A long journey through the world of computer science that aims to become a great
 
 <a id="languages"></a>
 
-## Languages
+### Languages
 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [TypeScript](https://www.typescriptlang.org/)
-<!-- - [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [Python](https://www.python.org/) -->
+- [C/C++](https://en.wikipedia.org/wiki/C%2B%2B) 
+- [Python](https://www.python.org/)
 
 <a id="license"></a>
 
-## License
+### License
 
-[MIT](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/blob/main/LICENSE) Project License
-
-Creator with 💙 by [Yazalde Filimone](https://www.linkedin.com/in/yazalde-filimone/)
+[MIT](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/blob/main/LICENSE) © [Yazalde Filimone](https://www.linkedin.com/in/yazalde-filimone/)
