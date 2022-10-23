@@ -17,5 +17,6 @@ console.log(copyNumbers);
 copyNumbers.fill(1);
 console.log(copyNumbers);
 copyNumbers = Array.of(...numbers);
+
 copyNumbers.fill(1, 2, 4);
 console.log(copyNumbers);
