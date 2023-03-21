@@ -1,4 +1,3 @@
-
 def sum1(n):
     num = 0
     for n in range(n + 1):
