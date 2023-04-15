@@ -1,5 +1,5 @@
 /**
- * @param {string} str
+ * @param {string} s
  * @return {number}
  */
 
