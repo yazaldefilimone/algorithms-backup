@@ -14,5 +14,3 @@ function binary_search(elements, search_data) {
     }
   }
 }
-
-console.log(binary_search([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 3, 14, 1, 15, 16], 3));
