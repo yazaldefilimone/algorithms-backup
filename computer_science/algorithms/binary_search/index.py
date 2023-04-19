@@ -1,3 +1,5 @@
+
+
 def binary_search(elements, search_data):
     down = 0
     up = len(elements) - 1
