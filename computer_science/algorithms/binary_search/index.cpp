@@ -33,26 +33,5 @@ int binary_search(int elements[], int search_data)
 
 int main()
 {
-  int exe[] = {1,
-               2,
-               3,
-               4,
-               5,
-               6,
-               7,
-               8,
-               9,
-               10,
-               11,
-               12,
-               1,
-               3,
-               14,
-               1,
-               15,
-               16};
-
-  int result = binary_search(exe, 3);
-  cout << result;
   return 0;
 }
