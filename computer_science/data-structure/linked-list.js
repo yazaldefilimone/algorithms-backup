@@ -14,7 +14,7 @@ class LinkedList {
     return this.head === null;
   }
 
-  pushHead(value) {
+  pushFront(value) {
     this.head = new Node(value, this.head);
   }
 
@@ -43,5 +43,24 @@ class LinkedList {
       currentNode = currentNode.next;
     }
     return Boolean(currentNode);
+  }
+  remove(value) {
+    if (this.isEmpty()) {
+      return;
+    }
+
+    if (this.head.value === value) {
+      this.head = this.head.next;
+      return;
+    }
+
+    let currentNode = this.head;
+    while (currentNode.next) {
+      if (currentNode.next.value === value) {
+        currentNode.next = currentNode.next.next;
+        return;
+      }
+      currentNode = currentNode.next;
+    }
   }
 }
