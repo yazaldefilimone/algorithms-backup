@@ -20,11 +20,11 @@ class Queue {
     return this.elements[this.head];
   }
 
-  get length() {
+  length() {
     return this.tails - this.head;
   }
 
-  get isEmpty() {
+  isEmpty() {
     return this.tails - this.head;
   }
 }

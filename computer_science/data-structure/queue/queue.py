@@ -1,30 +1,25 @@
-class Queue {
-  constructor() {
-    this.elements = {};
-    this.head = 0;
-    this.tails = 0;
-  }
-  enqueue(element) {
-    this.elements[this.tails] = element;
-    this.tails++;
-  }
+class Queue:
+    def __init__(self):
+        self.elements = {}
+        self.head = 0
+        self.tails = 0
 
-  dequeue() {
-    const element = this.elements[this.head];
-    delete this.elements[this.head];
-    this.head++;
-    return element;
-  }
+    def enqueue(self, value):
+        self.elements[self.tails] = value
+        self.tails = self.tails+1
 
-  peek() {
-    return this.elements[this.head];
-  }
+    def dequeue(self):
+        if self.head > 0:
+            backoup = self.elements[self.head]
+            del self.elements[self.head]
+            return backoup
+        return -1
 
-  get length() {
-    return this.tails - this.head;
-  }
+    def peek(self):
+        return self.elements[self.head]
 
-  get isEmpty() {
-    return this.tails - this.head;
-  }
-}
+    def length(self):
+        return self.tails - self.head
+
+    def isEmpty(self):
+        return self.tails - self.head
