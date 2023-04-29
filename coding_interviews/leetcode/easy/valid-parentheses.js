@@ -23,5 +23,3 @@ const isValid = function (s) {
 
   return opens.length === 0;
 };
-
-console.log(isValid("(){}{()"));
