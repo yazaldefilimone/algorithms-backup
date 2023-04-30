@@ -24,6 +24,7 @@ function selection_sort(arr) {
   return result;
 }
 
+// O(n^2)
 function my_selection_sort(arr) {
   for (let index = 0; index < arr.length; index++) {
     let count = 0;
