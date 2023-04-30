@@ -1,3 +1,4 @@
+// O(log2)
 function binary_search(elements, search_data) {
   let down = 0;
   let up = elements.length - 1;
