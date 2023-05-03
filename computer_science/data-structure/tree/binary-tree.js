@@ -1,5 +1,5 @@
 import { Queue } from "../queue/queue.js";
-class BinaryTree {
+export class BinaryTree {
   constructor(value) {
     this.value = value;
     this.left = null;
