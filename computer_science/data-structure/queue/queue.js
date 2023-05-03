@@ -1,30 +1,28 @@
-class Queue {
+export class Queue {
   constructor() {
-    this.elements = {};
-    this.head = 0;
-    this.tails = 0;
+    this.elements = [];
   }
   enqueue(element) {
-    this.elements[this.tails] = element;
-    this.tails++;
+    this.elements.push(element);
   }
 
   dequeue() {
-    const element = this.elements[this.head];
-    delete this.elements[this.head];
-    this.head++;
-    return element;
+    return this.elements.shift();
   }
 
-  peek() {
-    return this.elements[this.head];
+  front() {
+    return this.elements[0];
   }
 
-  length() {
-    return this.tails - this.head;
+  back() {
+    return this.elements.at(-1);
+  }
+
+  size() {
+    return this.elements.length;
   }
 
   isEmpty() {
-    return this.tails - this.head;
+    return this.elements.length === 0;
   }
 }
