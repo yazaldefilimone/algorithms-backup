@@ -1,0 +1,10 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "repository": "git@github.com:yazaldefilimonepinto/algorithms.git",
+  "author": "Yazalde Filimone <yazaldefilimon@gmail.com>",
+  "license": "MIT"
+}
