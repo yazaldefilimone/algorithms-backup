@@ -5,7 +5,7 @@ class Node {
   }
 }
 
-class LinkedList {
+export class LinkedList {
   constructor() {
     this.head = null;
   }
@@ -42,7 +42,7 @@ class LinkedList {
     while (currentNode && currentNode.value === value) {
       currentNode = currentNode.next;
     }
-    return Boolean(currentNode);
+    return currentNode;
   }
   remove(value) {
     if (this.isEmpty()) {
