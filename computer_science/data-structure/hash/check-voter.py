@@ -8,8 +8,3 @@ def checkVoter(name):
     else:
         voted[name] = True
         print("Voted!")
-
-
-checkVoter('Tom')
-checkVoter('mike')
-checkVoter('mike')
