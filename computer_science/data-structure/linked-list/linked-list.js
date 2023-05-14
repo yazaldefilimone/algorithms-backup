@@ -37,11 +37,18 @@ export class LinkedList {
     return count;
   }
 
-  search(value) {
+  search(value, callback = null) {
     let currentNode = this.head;
-    while (currentNode && currentNode.value === value) {
+    if (callback) {
+      while (currentNode && !callback(currentNode.value)) {
+        currentNode = currentNode.next;
+      }
+      return currentNode;
+    }
+    while (currentNode && currentNode.value !== value) {
       currentNode = currentNode.next;
     }
+
     return currentNode;
   }
   remove(value) {
