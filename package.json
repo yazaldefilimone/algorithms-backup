@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
   "repository": "git@github.com:yazaldefilimonepinto/algorithms.git",
   "author": "Yazalde Filimone <yazaldefilimon@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^0.31.0"
+  }
 }
