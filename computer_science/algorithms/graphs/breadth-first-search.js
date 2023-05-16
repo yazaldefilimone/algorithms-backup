@@ -16,7 +16,7 @@ const graphs = {
   alberto: [{ name: "Arthur", isProgrammer: false }],
 };
 
-// O(v+a) = v:9 + a:3 // O(9+3) // O(12)
+// O(v) + O(a) // v:9 + a:3 // O(v+a) // O(9+3) // O(12)
 function breadthFirstSearch() {
   const queue = new Array();
   queue.push(...graphs["me"]);
