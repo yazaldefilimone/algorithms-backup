@@ -28,4 +28,13 @@ describe("hash table", () => {
     hashTable.delete("me");
     expect(hashTable.get("me")).toBe(null);
   });
+
+  it("should be replace the old value if pass key exists", () => {
+    const value = "Yazalde Filimone";
+    const hashTable = new HashTable();
+    hashTable.set("me", value);
+    expect(hashTable.get("me")).toBe(value);
+    hashTable.set("me", "Filimone");
+    expect(hashTable.get("me")).toBe("Filimone");
+  });
 });
