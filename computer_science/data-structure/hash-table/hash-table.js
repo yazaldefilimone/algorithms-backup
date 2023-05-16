@@ -24,9 +24,14 @@ export class HashTable {
     return JSON.parse(data);
   }
 
-  set(key, value) {
+  getBucket(key) {
     const hashCode = this.hash(key);
     const linkedListBucket = this.buckets[hashCode];
+    return linkedListBucket;
+  }
+
+  set(key, value) {
+    const linkedListBucket = this.getBucket(key);
     const str = this.getStringify(key, value);
     const node = linkedListBucket.search(str);
     if (node) {
@@ -37,9 +42,20 @@ export class HashTable {
   }
 
   get(key) {
-    const hashCode = this.hash(key);
-    const linkedListBucket = this.buckets[hashCode];
+    const linkedListBucket = this.getBucket(key);
     const node = linkedListBucket.search("", (currentNode) => currentNode.includes(`{"key":"${key}"`));
     return node ? this.getParse(node.value).value : null;
   }
+
+  delete(key) {
+    const linkedListBucket = this.getBucket(key);
+    linkedListBucket.remove("", (currentNode) => currentNode.includes(`{"key":"${key}"`));
+  }
 }
+
+const value = "Yazalde Filimone";
+const hashTable = new HashTable();
+hashTable.set("me", value);
+console.log(hashTable.get("me"));
+hashTable.delete("me");
+console.log(hashTable.get("me"));

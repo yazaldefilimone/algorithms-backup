@@ -51,23 +51,37 @@ export class LinkedList {
 
     return currentNode;
   }
-  remove(value) {
+  remove(value, callback = null) {
     if (this.isEmpty()) {
       return;
     }
 
-    if (this.head.value === value) {
+    if (callback) {
+      if (callback(this.head.value)) {
+        this.head = this.head.next;
+        return;
+      }
+    } else if (this.head.value === value) {
       this.head = this.head.next;
       return;
     }
 
     let currentNode = this.head;
+
     while (currentNode.next) {
-      if (currentNode.next.value === value) {
-        currentNode.next = currentNode.next.next;
-        return;
+      if (callback) {
+        if (callback(currentNode.next.value)) {
+          currentNode.next = currentNode.next.next;
+          return;
+        }
+        currentNode = currentNode.next;
+      } else {
+        if (currentNode.next.value === value) {
+          currentNode.next = currentNode.next.next;
+          return;
+        }
+        currentNode = currentNode.next;
       }
-      currentNode = currentNode.next;
     }
   }
 }

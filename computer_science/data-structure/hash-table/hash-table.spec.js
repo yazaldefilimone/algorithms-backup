@@ -20,4 +20,12 @@ describe("hash table", () => {
     // hashTable.set("me", value);
     expect(hashTable.get("me")).toBe(null);
   });
+  it("should return null if delete  value", () => {
+    const value = "Yazalde Filimone";
+    const hashTable = new HashTable();
+    hashTable.set("me", value);
+    expect(hashTable.get("me")).toBe(value);
+    hashTable.delete("me");
+    expect(hashTable.get("me")).toBe(null);
+  });
 });
