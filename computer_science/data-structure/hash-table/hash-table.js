@@ -52,10 +52,3 @@ export class HashTable {
     linkedListBucket.remove("", (currentNode) => currentNode.includes(`{"key":"${key}"`));
   }
 }
-
-const value = "Yazalde Filimone";
-const hashTable = new HashTable();
-hashTable.set("me", value);
-console.log(hashTable.get("me"));
-hashTable.delete("me");
-console.log(hashTable.get("me"));
