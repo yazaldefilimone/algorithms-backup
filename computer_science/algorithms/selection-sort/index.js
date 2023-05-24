@@ -1,5 +1,3 @@
-const schema = [27, 37, 33, 26, 24, 25, 20, 40];
-
 function return_small_number_index(arr) {
   let small = 0;
   let storage = arr[0];
@@ -40,5 +38,6 @@ function my_selection_sort(arr) {
   return arr;
 }
 
+const schema = [27, 37, 33, 26, 24, 25, 20, 40];
 console.log(selection_sort(schema)); //[20, 24, 25, 26, 27, 33, 37, 40]
 console.log(my_selection_sort(schema)); //[20, 24, 25, 26, 27, 33, 37, 40]
