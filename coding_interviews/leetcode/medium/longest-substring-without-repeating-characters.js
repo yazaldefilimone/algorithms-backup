@@ -6,15 +6,15 @@
 // Time: O(n)
 // Space: O(min(m, n))
 export function longestSubstringWithoutRepeatingCharacters(str) {
-  let window = {};
+  let windowCarsMap = {};
   let longest = 0;
   let windowStart = 0;
   for (let index = 0; index < str.length; index++) {
     const element = str[index];
-    if (window[element] >= windowStart) {
-      windowStart = window[element] + 1;
+    if (windowCarsMap[element] >= windowStart) {
+      windowStart = windowCarsMap[element] + 1;
     }
-    window[element] = index;
+    windowCarsMap[element] = index;
     longest = Math.max(longest, index - windowStart + 1);
   }
 
