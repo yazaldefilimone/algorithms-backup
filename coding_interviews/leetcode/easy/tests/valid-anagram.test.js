@@ -14,4 +14,7 @@ describe("Valid Anagram", () => {
   it("s='aacc', t='ccac' --->  false", () => {
     expect(isAnagram("aacc", "ccac")).toBe(false);
   });
+  it("s='ccac', t='aacc' --->  false", () => {
+    expect(isAnagram("ccac", "aacc")).toBe(false);
+  });
 });
