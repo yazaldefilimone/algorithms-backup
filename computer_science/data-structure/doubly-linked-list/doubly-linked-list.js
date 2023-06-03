@@ -14,19 +14,28 @@ export class DoublyLinkedList {
     this.len = 1;
   }
 
-  push(value) {
+  pushFront(value) {
     const node = new Node(value, null, null);
     if (!this.head) {
       this.head = node;
       this.tail = node;
     } else {
-      this.tail.next = node;
-      node.prev = this.tail;
-      this.tail = node;
+      this.head.prev = node;
+      node.next = this.head;
+      this.head = node;
     }
     this.len++;
   }
-
+  pushBack(value) {
+    const node = new Node(value, null, null);
+    if (this.tail) {
+      node.prev = this.tail;
+      this.tail.next = node;
+    } else {
+      this.head = node;
+      this.tail = node;
+    }
+  }
   pop() {
     if (this.len === 0) return undefined;
     const temp = this.tail;
