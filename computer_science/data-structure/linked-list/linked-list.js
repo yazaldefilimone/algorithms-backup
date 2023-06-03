@@ -8,80 +8,103 @@ class Node {
 export class LinkedList {
   constructor() {
     this.head = null;
+    this.tail = null;
+    this.length = 0;
   }
 
   isEmpty() {
     return this.head === null;
   }
-
-  pushFront(value) {
-    this.head = new Node(value, this.head);
+  push(value) {
+    const node = new Node(value);
+    if (!this.head) {
+      this.head = node;
+      this.tail = node;
+    } else {
+      this.tail.next = node;
+      this.tail = node;
+    }
+    this.length++;
+    return this;
   }
-
-  pushBack(value) {
+  pop() {
+    if (!this.head) return undefined;
     let currentNode = this.head;
-
-    while (currentNode && currentNode.next) {
+    let previous = this.head;
+    while (currentNode.next) {
+      previous = currentNode;
       currentNode = currentNode.next;
     }
-    currentNode.next = new Node(value);
-  }
+    previous.next = null;
+    this.tail = previous;
+    this.length--;
 
-  size() {
-    let currentNode = this.head;
-    let count = 0;
-    while (currentNode) {
-      count += 1;
-      currentNode = currentNode.next;
-    }
-    return count;
-  }
-
-  search(value, callback = null) {
-    let currentNode = this.head;
-    if (callback) {
-      while (currentNode && !callback(currentNode.value)) {
-        currentNode = currentNode.next;
-      }
-      return currentNode;
-    }
-    while (currentNode && currentNode.value !== value) {
-      currentNode = currentNode.next;
+    if (!this.head) {
+      this.head = null;
+      this.tail = null;
     }
 
     return currentNode;
   }
-  remove(value, callback = null) {
-    if (this.isEmpty()) {
-      return;
-    }
 
-    if (callback) {
-      if (callback(this.head.value)) {
-        this.head = this.head.next;
-        return;
-      }
-    } else if (this.head.value === value) {
-      this.head = this.head.next;
-      return;
+  unshift(value) {
+    const node = new Node(value);
+    if (!this.head) {
+      this.head = node;
+      this.tail = node;
     }
-
-    let currentNode = this.head;
-
-    while (currentNode.next) {
-      if (callback) {
-        if (callback(currentNode.next.value)) {
-          currentNode.next = currentNode.next.next;
-          return;
-        }
-        currentNode = currentNode.next;
-      } else {
-        if (currentNode.next.value === value) {
-          currentNode.next = currentNode.next.next;
-          return;
-        }
-        currentNode = currentNode.next;
-      }
+    node.next = this.head;
+    this.head = node;
+    this.length++;
+    return this;
+  }
+  shift() {
+    if (!this.head) return undefined;
+    const temp = this.head;
+    this.head = this.head.next;
+    temp.next = null;
+    this.length--;
+    if (!this.head) {
+      this.tail = null;
     }
+    return temp;
+  }
+
+  get(index) {
+    if (index <= 0 || index > this.length) {
+      return undefined;
+    }
+    let temp = this.head;
+    for (let idx = 1; idx < index; idx++) {
+      temp = temp.next;
+    }
+    return temp;
+  }
+  set(index, value) {
+    const currentNode = this.get(index);
+    if (currentNode) {
+      currentNode.value = value;
+      return true;
+    }
+    return false;
+  }
+  insert(index, value) {
+    if (!this.head) return this.unshift(value);
+    if (index < 0 || index > this.length) return false;
+    let idx = index - 1;
+    let currentNode = this.get(idx);
+    const node = new Node(value, currentNode.next);
+    currentNode.next = node;
+    this.length++;
+  }
+
+  remove(index) {
+    if (!this.head) return this.unshift(value);
+    if (index < 0 || index > this.length) return false;
+    let idx = index;
+    let currentNode = this.get(idx);
+    const node = new Node(value, currentNode.next);
+    currentNode.next = node;
+    this.length++;
   }
 }
