@@ -79,4 +79,18 @@ describe("Linked List", () => {
     expect(linkedList.tail.value).toBe(1);
     expect(linkedList.length).toBe(1);
   });
+  it("reverse", () => {
+    const linkedList = makeSut();
+    linkedList.push(1);
+    linkedList.push(2);
+    linkedList.push(3);
+    expect(linkedList.head.value).toBe(1);
+    expect(linkedList.tail.value).toBe(3);
+    expect(linkedList.length).toBe(3);
+    linkedList.reverse();
+    expect(linkedList.head.value).toBe(3);
+    expect(linkedList.head.next?.value).toBe(2);
+    expect(linkedList.tail.value).toBe(1);
+    expect(linkedList.length).toBe(3);
+  });
 });

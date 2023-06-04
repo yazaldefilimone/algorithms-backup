@@ -109,4 +109,17 @@ export class LinkedList {
     this.length--;
     return node;
   }
+  reverse() {
+    let temp = this.head;
+    this.head = this.tail;
+    this.tail = temp;
+    let previous = null;
+    for (let index = 0; index < this.length; index++) {
+      let next = temp.next;
+      temp.next = previous;
+      previous = temp;
+      temp = next;
+    }
+    return this;
+  }
 }
