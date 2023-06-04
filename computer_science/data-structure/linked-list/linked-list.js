@@ -40,7 +40,6 @@ export class LinkedList {
     this.length--;
 
     if (!this.head) {
-      this.head = null;
       this.tail = null;
     }
 
@@ -90,7 +89,7 @@ export class LinkedList {
   }
   insert(index, value) {
     if (!this.head) return this.unshift(value);
-    if (index < 0 || index > this.length) return false;
+    if (index <= 0 || index > this.length) return false;
     let idx = index - 1;
     let currentNode = this.get(idx);
     const node = new Node(value, currentNode.next);
@@ -99,12 +98,15 @@ export class LinkedList {
   }
 
   remove(index) {
-    if (!this.head) return this.unshift(value);
-    if (index < 0 || index > this.length) return false;
-    let idx = index;
+    if (index <= 0 || index > this.length) return false;
+    if (index === 1) return this.shift();
+    if (this.length === index) return this.pop();
+    let idx = index - 1;
     let currentNode = this.get(idx);
-    const node = new Node(value, currentNode.next);
-    currentNode.next = node;
-    this.length++;
+    const node = currentNode.next;
+    currentNode.next = node.next;
+    node.next = null;
+    this.length--;
+    return node;
   }
 }

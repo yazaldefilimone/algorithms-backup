@@ -68,4 +68,12 @@ describe("Linked List", () => {
     expect(linkedList.get(3)?.value).toBe(3);
     expect(linkedList.length).toBe(3);
   });
+  it("remove", () => {
+    const linkedList = makeSut();
+    linkedList.push(1);
+    linkedList.push(3);
+    expect(linkedList.remove(2)?.value).toBe(3);
+    expect(linkedList.tail.value).toBe(1);
+    expect(linkedList.length).toBe(1);
+  });
 });
