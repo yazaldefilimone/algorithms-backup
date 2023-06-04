@@ -72,7 +72,10 @@ describe("Linked List", () => {
     const linkedList = makeSut();
     linkedList.push(1);
     linkedList.push(3);
+    expect(linkedList.length).toBe(2);
+    expect(linkedList.get(2)?.value).toBe(3);
     expect(linkedList.remove(2)?.value).toBe(3);
+    expect(linkedList.get(2)?.value).toBe(undefined);
     expect(linkedList.tail.value).toBe(1);
     expect(linkedList.length).toBe(1);
   });
