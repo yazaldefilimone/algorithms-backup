@@ -7,39 +7,37 @@ class Node {
 }
 
 export class DoublyLinkedList {
-  constructor(value) {
-    const node = new Node(value, null, null);
-    this.head = node;
-    this.tail = node;
-    this.len = 1;
+  constructor() {
+    this.head = null;
+    this.tail = null;
+    this.length = 0;
   }
 
-  pushFront(value) {
-    const node = new Node(value, null, null);
+  push(value) {
+    const node = new Node(value, this.tail);
     if (!this.head) {
       this.head = node;
       this.tail = node;
     } else {
-      this.head.prev = node;
-      node.next = this.head;
-      this.head = node;
-    }
-    this.len++;
-  }
-  pushBack(value) {
-    const node = new Node(value, null, null);
-    if (this.tail) {
-      node.prev = this.tail;
       this.tail.next = node;
-    } else {
+      this.tail = node;
+      this.length++;
+    }
+  }
+  unshift(value) {
+    const node = new Node(value, null, this.head);
+    if (!this.head) {
       this.head = node;
       this.tail = node;
+    } else {
+      this.head = node;
     }
+    this.length++;
   }
   pop() {
-    if (this.len === 0) return undefined;
+    if (this.length === 0) return undefined;
     const temp = this.tail;
-    if (this.len === 1) {
+    if (this.length === 1) {
       this.head = null;
       this.tail = null;
     } else {
@@ -47,7 +45,7 @@ export class DoublyLinkedList {
       this.tail.next = null;
       temp.prev = null;
     }
-    this.len--;
+    this.length--;
     return temp;
   }
 }
