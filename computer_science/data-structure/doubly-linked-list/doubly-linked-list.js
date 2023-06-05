@@ -1,4 +1,4 @@
-class Node {
+export class Node {
   constructor(value, prev, next) {
     this.value = value;
     this.prev = prev ?? null;
@@ -14,22 +14,25 @@ export class DoublyLinkedList {
   }
 
   push(value) {
-    const node = new Node(value, this.tail);
+    const node = new Node(value);
     if (!this.head) {
       this.head = node;
       this.tail = node;
     } else {
       this.tail.next = node;
+      node.prev = this.tail;
       this.tail = node;
       this.length++;
     }
   }
   unshift(value) {
-    const node = new Node(value, null, this.head);
+    const node = new Node(value);
     if (!this.head) {
       this.head = node;
       this.tail = node;
     } else {
+      this.head.prev = node;
+      node.next = this.head;
       this.head = node;
     }
     this.length++;

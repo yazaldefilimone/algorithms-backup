@@ -21,6 +21,7 @@ describe("Doubly Linked List", () => {
     doublyLinkedList.unshift(3);
     expect(doublyLinkedList.head.prev).toBe(null);
     expect(doublyLinkedList.head.value).toBe(3);
+    expect(doublyLinkedList.head.next.prev.value).toBe(3);
     expect(doublyLinkedList.head.next.value).toBe(2);
     expect(doublyLinkedList.head.next.next.value).toBe(1);
     expect(doublyLinkedList.tail.value).toBe(1);
