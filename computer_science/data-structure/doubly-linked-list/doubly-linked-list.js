@@ -69,11 +69,10 @@ export class DoublyLinkedList {
     if (!this.head || index > this.length || index == 0) {
       return undefined;
     }
-    const mind = Math.floor(this.length / 2);
+
     let temp = this.head;
-    if (index < mind) {
-      for (let idx = 0; idx < index; idx++) {
-        console.log({ idx });
+    if (index < this.length / 2) {
+      for (let idx = 1; idx < index; idx++) {
         temp = temp.next;
       }
     } else {
