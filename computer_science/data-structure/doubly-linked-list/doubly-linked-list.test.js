@@ -67,4 +67,19 @@ describe("Doubly Linked List", () => {
     expect(doublyLinkedList.get(2)?.value).toBe(100);
     expect(doublyLinkedList.length).toBe(3);
   });
+  it("insert", () => {
+    const doublyLinkedList = new DoublyLinkedList();
+    doublyLinkedList.push(1);
+    doublyLinkedList.push(2);
+    doublyLinkedList.push(3);
+    expect(doublyLinkedList.length).toBe(3);
+
+    expect(doublyLinkedList.get(2)?.value).toBe(2);
+    expect(doublyLinkedList.insert(2, 100)).toBe(true);
+    expect(doublyLinkedList.get(2)?.value).toBe(100);
+    expect(doublyLinkedList.get(2)?.prev?.value).toBe(1);
+    expect(doublyLinkedList.get(2)?.next?.value).toBe(2);
+    expect(doublyLinkedList.get(3)?.value).toBe(2);
+    expect(doublyLinkedList.length).toBe(4);
+  });
 });
