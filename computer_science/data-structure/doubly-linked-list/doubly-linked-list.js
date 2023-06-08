@@ -64,4 +64,24 @@ export class DoublyLinkedList {
     this.length--;
     return temp;
   }
+
+  get(index) {
+    if (!this.head || index > this.length || index == 0) {
+      return undefined;
+    }
+    const mind = Math.floor(this.length / 2);
+    let temp = this.head;
+    if (index < mind) {
+      for (let idx = 0; idx < index; idx++) {
+        console.log({ idx });
+        temp = temp.next;
+      }
+    } else {
+      temp = this.tail;
+      for (let idx = this.length; idx > index; idx--) {
+        temp = temp.prev;
+      }
+    }
+    return temp;
+  }
 }

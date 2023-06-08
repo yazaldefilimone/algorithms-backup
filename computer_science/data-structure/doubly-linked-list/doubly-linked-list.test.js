@@ -42,20 +42,17 @@ describe("Doubly Linked List", () => {
     expect(doublyLinkedList_second.length).toBe(0);
     expect(doublyLinkedList.length).toBe(2);
   });
-  // it("method pop", () => {
-  //   const doublyLinkedList = new DoublyLinkedList(1);
-  //   doublyLinkedList.push(2);
-  //   doublyLinkedList.push(3);
-  //   doublyLinkedList.pop();
-  //   expect(doublyLinkedList.tail.value).toBe(2);
-  // });
-  // it("method pushBack", () => {
-  //   const doublyLinkedList = new DoublyLinkedList(1);
-  //   doublyLinkedList.pushFront(2);
-  //   doublyLinkedList.pushFront(3);
-  //   doublyLinkedList.pushBack(5);
-  //   expect(doublyLinkedList.head.value).toBe(3);
-  //   expect(doublyLinkedList.tail.value).toBe(5);
-  //   expect(doublyLinkedList.tail.prev.value).toBe(3);
-  // });
+
+  it("get", () => {
+    const doublyLinkedList = new DoublyLinkedList();
+    doublyLinkedList.push(1);
+    doublyLinkedList.push(2);
+    doublyLinkedList.push(3);
+    expect(doublyLinkedList.get(0)?.value).toBe(undefined);
+    expect(doublyLinkedList.get(4)?.value).toBe(undefined);
+    expect(doublyLinkedList.get(1)?.value).toBe(1);
+    expect(doublyLinkedList.get(2)?.value).toBe(2);
+    expect(doublyLinkedList.get(3)?.value).toBe(3);
+    expect(doublyLinkedList.length).toBe(3);
+  });
 });
