@@ -55,4 +55,16 @@ describe("Doubly Linked List", () => {
     expect(doublyLinkedList.get(3)?.value).toBe(3);
     expect(doublyLinkedList.length).toBe(3);
   });
+
+  it("set", () => {
+    const doublyLinkedList = new DoublyLinkedList();
+    doublyLinkedList.push(1);
+    doublyLinkedList.push(2);
+    doublyLinkedList.push(3);
+    expect(doublyLinkedList.get(2)?.value).toBe(2);
+    expect(doublyLinkedList.set(2, 100)).toBe(true);
+    expect(doublyLinkedList.set(4, 2)).toBe(false);
+    expect(doublyLinkedList.get(2)?.value).toBe(100);
+    expect(doublyLinkedList.length).toBe(3);
+  });
 });
