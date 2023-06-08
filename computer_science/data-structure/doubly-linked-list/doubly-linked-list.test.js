@@ -27,6 +27,21 @@ describe("Doubly Linked List", () => {
     expect(doublyLinkedList.tail.value).toBe(1);
     expect(doublyLinkedList.length).toBe(3);
   });
+
+  it("shift", () => {
+    const doublyLinkedList = new DoublyLinkedList();
+    const doublyLinkedList_second = new DoublyLinkedList();
+    doublyLinkedList.push(1);
+    doublyLinkedList_second.push(1);
+    doublyLinkedList.push(2);
+    doublyLinkedList.push(3);
+    const is = doublyLinkedList_second.shift();
+    expect(doublyLinkedList.shift()?.value).toBe(1);
+    expect(is?.value).toBe(1);
+    expect(doublyLinkedList_second.shift()?.value).toBe(undefined);
+    expect(doublyLinkedList_second.length).toBe(0);
+    expect(doublyLinkedList.length).toBe(2);
+  });
   // it("method pop", () => {
   //   const doublyLinkedList = new DoublyLinkedList(1);
   //   doublyLinkedList.push(2);
