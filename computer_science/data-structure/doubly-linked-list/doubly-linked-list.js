@@ -113,4 +113,18 @@ export class DoublyLinkedList {
     this.length++;
     return true;
   }
+  remove(index) {
+    if (index > this.length || index <= 0) return undefined;
+    if (index === 1) return this.shift();
+    if (index === this.length) return this.pop();
+    const temp = this.get(index);
+    let before = temp.prev;
+    let after = temp.next;
+    before.next = after;
+    after.prev = before;
+    temp.next = null;
+    temp.prev = null;
+    this.length--;
+    return temp;
+  }
 }
