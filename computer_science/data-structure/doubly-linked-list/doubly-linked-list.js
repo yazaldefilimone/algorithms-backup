@@ -84,12 +84,15 @@ export class DoublyLinkedList {
     return temp;
   }
 
+
+
   set(index, value) {
     const node = this.get(index);
     if (node) {
       node.value = value;
       return true;
     }
+
     return false;
   }
 
