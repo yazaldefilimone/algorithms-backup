@@ -53,4 +53,10 @@ export class BinarySearchTree {
     }
     return false;
   }
+  minimalValue(currentNode) {
+    while (currentNode.left != null) {
+      currentNode = currentNode.left;
+    }
+    return currentNode;
+  }
 }
