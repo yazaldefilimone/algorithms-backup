@@ -87,4 +87,15 @@ describe("BinarySearchTree", () => {
     expect(binarySearchTree.contains(0)).toBe(false);
     expect(binarySearchTree.contains(5)).toBe(false);
   });
+  it("minimal value", () => {
+    const binarySearchTree = makeSut();
+    binarySearchTree.insert(20);
+    binarySearchTree.insert(24);
+    binarySearchTree.insert(18);
+    binarySearchTree.insert(17);
+    binarySearchTree.insert(19);
+    binarySearchTree.insert(25);
+    binarySearchTree.insert(23);
+    expect(binarySearchTree.minimalValue(binarySearchTree.root)?.value).toBe(17);
+  });
 });
