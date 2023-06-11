@@ -1,5 +1,8 @@
 <samp>
-Technical
+
+**NB:** All data structures implement from scratch without using an existing structure, and I intend to reuse them in the algorithms
+
+### Technical
 
 - [x] Big O notation
   - [x] Constant - (1)
