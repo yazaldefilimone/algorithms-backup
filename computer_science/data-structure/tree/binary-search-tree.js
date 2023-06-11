@@ -10,6 +10,7 @@ export class BinarySearchTree {
   constructor() {
     this.root = null;
   }
+
   insert(value) {
     const node = new Node(value);
 
@@ -36,5 +37,20 @@ export class BinarySearchTree {
         tempNode = tempNode.right;
       }
     }
+  }
+
+  contains(value) {
+    if (this.root === null) return false;
+    let tempNode = this.root;
+    while (tempNode) {
+      if (value < tempNode.value) {
+        tempNode = tempNode.left;
+      } else if (value > tempNode.value) {
+        tempNode = tempNode.right;
+      } else {
+        return true;
+      }
+    }
+    return false;
   }
 }
