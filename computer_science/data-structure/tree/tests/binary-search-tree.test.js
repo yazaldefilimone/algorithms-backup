@@ -53,7 +53,6 @@ describe("BinarySearchTree", () => {
                 25    23        19     17
 
  */
-    console.log(binarySearchTree.root);
     expect(binarySearchTree.root?.value).toBe(20);
     expect(binarySearchTree.root?.right?.value).toBe(24);
     expect(binarySearchTree.root?.left?.value).toBe(18);
@@ -64,5 +63,28 @@ describe("BinarySearchTree", () => {
 
     expect(binarySearchTree.root?.right?.right?.value).toBe(25);
     expect(binarySearchTree.root?.right?.left?.value).toBe(23);
+  });
+  it("contains left and  right", () => {
+    const binarySearchTree = makeSut();
+    expect(binarySearchTree.root).toBe(null);
+    binarySearchTree.insert(20);
+    binarySearchTree.insert(24);
+    binarySearchTree.insert(18);
+    binarySearchTree.insert(17);
+    binarySearchTree.insert(19);
+    binarySearchTree.insert(25);
+    binarySearchTree.insert(23);
+    /*
+                          20
+                  /               \
+                  24              18
+                /    \          /     \
+                25    23        19     17
+
+ */
+    expect(binarySearchTree.contains(18)).toBe(true);
+    expect(binarySearchTree.contains(23)).toBe(true);
+    expect(binarySearchTree.contains(0)).toBe(false);
+    expect(binarySearchTree.contains(5)).toBe(false);
   });
 });
