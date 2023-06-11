@@ -2,6 +2,11 @@
 Technical
 
 - [x] Big O notation
+  - [x] Constant - (1)
+  - [x] Linear - (n)
+  - [x] Logarithmic - (log n)
+  - [x] Quadratic (n^2)
+  - [x] Exponential (2^n)
 
 ### Data Structures
 
