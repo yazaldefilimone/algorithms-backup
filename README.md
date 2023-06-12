@@ -19,7 +19,7 @@
 - [x] Doubly Linked List
 - [x] Queue
 - [x] Stack
-- [ ] Hash Table
+- [x] Hash Table
 - [ ] Heap - max and min heap versions
 - [ ] Priority Queue
 - [ ] Trie
