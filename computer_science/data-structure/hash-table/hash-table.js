@@ -1,54 +1,50 @@
-import { LinkedList } from "../linked-list/linked-list.js";
-
-const defaultHashTableSize = 18;
+const DEFAULT_HASH_TABLE_SIZE = 7;
 
 export class HashTable {
-  constructor(hashTableSize = defaultHashTableSize) {
-    this.buckets = Array(hashTableSize)
-      .fill(null)
-      .map(() => new LinkedList());
+  constructor(hashTableSize = DEFAULT_HASH_TABLE_SIZE) {
+    this.data_map = Array(hashTableSize);
   }
 
-  hash(key) {
-    const hashCode = Array.from(key).reduce((acc, character) => {
-      return acc + character.charCodeAt();
-    }, 0);
-    return hashCode % this.buckets.length;
-  }
-
-  getStringify(key, value) {
-    return JSON.stringify({ key, value }).trim();
-  }
-
-  getParse(data) {
-    return JSON.parse(data);
-  }
-
-  getBucket(key) {
-    const hashCode = this.hash(key);
-    const linkedListBucket = this.buckets[hashCode];
-    return linkedListBucket;
+  _hash(key) {
+    let hash = 0;
+    for (let index = 0; index < key.length; index++) {
+      hash = (hash + key.charCodeAt(index) * 23) % this.data_map.length;
+    }
+    return hash;
   }
 
   set(key, value) {
-    const linkedListBucket = this.getBucket(key);
-    const str = this.getStringify(key, value);
-    const node = linkedListBucket.search(str);
-    if (node) {
-      node.value = str;
+    const index = this._hash(key);
+    const data = [key, value];
+    if (!this.data_map[index]) {
+      this.data_map[index] = [data];
     } else {
-      linkedListBucket.pushFront(str);
+      this.data_map[index].push(data);
     }
+    return this;
   }
 
   get(key) {
-    const linkedListBucket = this.getBucket(key);
-    const node = linkedListBucket.search("", (currentNode) => currentNode.includes(`{"key":"${key}"`));
-    return node ? this.getParse(node.value).value : null;
+    const index = this._hash(key);
+    if (this.data_map[index]) {
+      for (let idx = 0; idx < this.data_map[index].length; idx++) {
+        if (this.data_map[index][idx][0] == key) {
+          return this.data_map[index][idx][1];
+        }
+      }
+    }
+    return undefined;
   }
 
-  delete(key) {
-    const linkedListBucket = this.getBucket(key);
-    linkedListBucket.remove("", (currentNode) => currentNode.includes(`{"key":"${key}"`));
+  keys() {
+    let keys = [];
+    for (let index = 0; index < this.data_map.length; index++) {
+      if (this.data_map[index]) {
+        for (let idx = 0; idx < this.data_map[index].length; idx++) {
+          keys.push(this.data_map[index][idx][0]);
+        }
+      }
+    }
+    return keys;
   }
 }
