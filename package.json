@@ -7,7 +7,9 @@
     "test:ci": "vitest ./coding_interviews",
     "test:cs": "vitest ./computer_science",
     "test:cp": "vitest ./competitive_programming",
-    "coverage": "vitest run --coverage"
+    "coverage:ci": "vitest run --coverage ./coding_interviews",
+    "coverage:cs": "vitest run --coverage ./computer_science",
+    "coverage:cp": "vitest run --coverage ./competitive_programming"
   },
   "repository": "git@github.com:yazaldefilimonepinto/algorithms.git",
   "author": "Yazalde Filimone <yazaldefilimon@gmail.com>",
