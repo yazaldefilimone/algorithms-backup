@@ -29,7 +29,7 @@
 - [ ] Red-Black Tree
 - [ ] Segment Tree
 - [ ] Fenwick Tree
-- [ ] Graph
+- [x] Graph
 - [ ] Disjoint Set
 - [ ] Bloom Filter
 - [ ] LRU Cache - Least Recently Used (LRU) cache
