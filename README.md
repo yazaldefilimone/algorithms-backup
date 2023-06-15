@@ -39,7 +39,7 @@
 - Sorting:
 
 - [x] Bubble Sort
-- [ ] Selection Sort
+- [x] Selection Sort
 - [ ] Insertion Sort
 - [ ] Heap Sort
 - [ ] Merge Sort
