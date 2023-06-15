@@ -40,7 +40,7 @@
 
 - [x] Bubble Sort
 - [x] Selection Sort
-- [ ] Insertion Sort
+- [x] Insertion Sort
 - [ ] Heap Sort
 - [ ] Merge Sort
 - [ ] Quick Sort - in-place and non-in-place implementations
