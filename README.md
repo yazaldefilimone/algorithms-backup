@@ -20,16 +20,16 @@
 - [x] Queue
 - [x] Stack
 - [x] Hash Table
+- [x] Tree
+- [x] Binary Search Tree
+- [x] Graph
 - [ ] Heap - max and min heap versions
 - [ ] Priority Queue
 - [ ] Trie
-- [x] Tree
-- [x] Binary Search Tree
 - [ ] AVL Tree
 - [ ] Red-Black Tree
 - [ ] Segment Tree
 - [ ] Fenwick Tree
-- [x] Graph
 - [ ] Disjoint Set
 - [ ] Bloom Filter
 - [ ] LRU Cache - Least Recently Used (LRU) cache
