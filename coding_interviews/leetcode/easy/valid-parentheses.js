@@ -1,25 +1,17 @@
 /**
- * @param {string} s
+ * @param {string} parentheses
  * @return {boolean}
  */
-const isValid = function (s) {
-  const opens = [];
-  const symbol = { ")": "(", "]": "[", "}": "{" };
-  for (let character of s) {
-    switch (character) {
-      case "(":
-      case "{":
-      case "[":
-        opens.push(character);
-        break;
-      case ")":
-      case "}":
-      case "]":
-        if (opens === 0 || opens.pop() !== symbol[character]) {
-          return false;
-        }
+export const validParentheses = function (parentheses) {
+  const stack = [];
+  const symbol = { "(": ")", "{": "}", "[": "]" };
+  for (let index = 0; index < parentheses.length; index++) {
+    let currentChar = parentheses[index];
+    if (symbol[currentChar]) {
+      stack.push(currentChar);
+    } else if (symbol[stack.pop()] !== currentChar) {
+      return false;
     }
   }
-
-  return opens.length === 0;
+  return stack.length === 0;
 };
