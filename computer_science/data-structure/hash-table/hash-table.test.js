@@ -13,7 +13,6 @@ describe("hash table", () => {
     const value = "Yazalde Filimone";
     const hashTable = new HashTable();
     hashTable.set("me", value);
-    console.log(hashTable.get("me"));
     expect(hashTable.get("me")).toBe(value);
   });
   it("should return null if no set value", () => {
