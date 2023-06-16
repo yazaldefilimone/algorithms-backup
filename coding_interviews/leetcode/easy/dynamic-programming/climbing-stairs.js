@@ -14,3 +14,18 @@ export function climbStairs(n) {
   }
   return ways.pop();
 }
+
+// time: O(n)
+// space:  O(1)
+export function climbStairs_with_pointer(n) {
+  if (n === 1) return n;
+  let first = 1;
+  let second = 2;
+
+  for (let index = 3; index <= n; index++) {
+    let three = first + second;
+    first = second;
+    second = three;
+  }
+  return second;
+}
