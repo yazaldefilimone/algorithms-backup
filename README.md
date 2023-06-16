@@ -41,8 +41,8 @@
 - [x] Bubble Sort
 - [x] Selection Sort
 - [x] Insertion Sort
+- [x] Merge Sort
 - [ ] Heap Sort
-- [ ] Merge Sort
 - [ ] Quick Sort - in-place and non-in-place implementations
 - [ ] Shellsort
 - [ ] Counting Sort
