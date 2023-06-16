@@ -1,5 +1,5 @@
 import { it, expect, describe } from "vitest";
-import { isAnagram } from "../valid-anagram";
+import { isAnagram } from "coding_interviews/leetcode/easy/strings/valid-anagram";
 
 describe("Valid Anagram", () => {
   it("s=anagram, t=nagaram --->  true", () => {

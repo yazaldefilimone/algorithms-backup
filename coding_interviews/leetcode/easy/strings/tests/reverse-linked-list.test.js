@@ -1,6 +1,6 @@
 import { it, expect, describe } from "vitest";
-import { reverseLinkedList } from "../reverse-linked-list";
-import { LinkedList } from "../../../../computer_science/data-structure/linked-list/linked-list";
+import { reverseLinkedList } from "coding_interviews/eleetcode/easy/reverseLinkedList";
+import { LinkedList } from "computer_science/data-structure/linked-list/linked-list";
 
 describe("Valid Anagram", () => {
   it("head=[1,2,3,4,5] ---> [5,4,3,2,1]", () => {

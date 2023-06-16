@@ -1,5 +1,5 @@
 import { it, expect, describe } from "vitest";
-import { removeElement } from "../remove-element";
+import { removeElement } from "coding_interviews/leetcode/easy/strings/remove-element";
 
 describe("Valid Anagram", () => {
   it("nums=[3,2,2,3] val:3 --->  [2,2]", () => {
