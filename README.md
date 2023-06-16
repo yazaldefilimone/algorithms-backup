@@ -44,7 +44,7 @@
 - [x] Merge Sort
 - [ ] Heap Sort
 - [ ] Quick Sort - in-place and non-in-place implementations
-- [ ] Shellsort
+- [ ] Shell Sort
 - [ ] Counting Sort
 - [ ] Radix Sort
 - [ ] Bucket Sort
