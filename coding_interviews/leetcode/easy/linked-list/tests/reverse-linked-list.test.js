@@ -1,8 +1,8 @@
 import { it, expect, describe } from "vitest";
-import { reverseLinkedList } from "coding_interviews/eleetcode/easy/reverseLinkedList";
+import { reverseLinkedList } from "coding_interviews/leetcode/easy/linked-list/reverse-linked-list";
 import { LinkedList } from "computer_science/data-structure/linked-list/linked-list";
 
-describe("Valid Anagram", () => {
+describe("Reverse LinkedList", () => {
   it("head=[1,2,3,4,5] ---> [5,4,3,2,1]", () => {
     const linkedList = new LinkedList();
     const nodes = [1, 2, 3, 4, 5];
