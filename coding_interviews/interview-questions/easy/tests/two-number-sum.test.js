@@ -1,5 +1,5 @@
 import { it, expect, describe } from "vitest";
-import { twoNumberSum } from "~/coding_interviews/interview-questions/two-number-sum";
+import { twoNumberSum } from "~/coding_interviews/interview-questions/easy/two-number-sum";
 
 describe("twoNumberSum", () => {
   it("array=[-7, -5, -3, -1, 0, 1, 3, 5, 7], target=-5  ------> [-5, 0]", () => {
