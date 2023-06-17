@@ -1,5 +1,5 @@
 import { it, expect, describe } from "vitest";
-import { middleOfTheLinkedList } from "coding_interviews/leetcode/easy/strings/middle-of-the-linked-list";
+import { middleOfTheLinkedList } from "coding_interviews/leetcode/easy/linked-list/middle-of-the-linked-list";
 import { LinkedList } from "computer_science/data-structure/linked-list/linked-list";
 
 describe("Valid Anagram", () => {
