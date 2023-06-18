@@ -42,12 +42,12 @@
 - [x] Selection Sort
 - [x] Insertion Sort
 - [x] Merge Sort
-- [ ] Heap Sort
-- [ ] Quick Sort - in-place and non-in-place implementations
-- [ ] Shell Sort
-- [ ] Counting Sort
+- [x] Quick Sort
 - [ ] Radix Sort
 - [ ] Bucket Sort
+- [ ] Heap Sort
+- [ ] Shell Sort
+- [ ] Counting Sort
 
 - Trees/Graphs:
 
