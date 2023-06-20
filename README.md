@@ -51,7 +51,7 @@
 
 - Trees/Graphs:
 
-- [ ] Depth-First Search (DFS)
+- [x] Depth-First Search (DFS)
 - [x] Breadth-First Search (BFS)
 - [ ] Kruskal’s Algorithm
 - [ ] Dijkstra Algorithm
