@@ -12,7 +12,7 @@ describe("Depth First Search", () => {
     binarySearchTree.insert(27);
     binarySearchTree.insert(52);
     binarySearchTree.insert(82);
-    const result = depthFirstSearch(binarySearchTree.root);
+    const result = depthFirstSearch.preOrder(binarySearchTree.root);
     expect(result).toEqual([47, 21, 18, 27, 76, 52, 82]);
   });
 });
