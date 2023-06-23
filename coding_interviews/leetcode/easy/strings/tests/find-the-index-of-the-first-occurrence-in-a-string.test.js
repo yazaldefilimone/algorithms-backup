@@ -1,5 +1,5 @@
 import { it, expect, describe } from "vitest";
-import { findTheIndexOfTheFirstOccurrenceInAString } from "coding_interviews/leetcode/easy/find-the-index-of-the-first-occurrence-in-a-string";
+import { findTheIndexOfTheFirstOccurrenceInAString } from "coding_interviews/leetcode/easy/strings/find-the-index-of-the-first-occurrence-in-a-string";
 
 describe("Find the Index of the First Occurrence in a String", () => {
   it("haystack=sadbutsad, needle=sad ---> 0", () => {
