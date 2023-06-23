@@ -2,6 +2,9 @@
  * @param {number[]} nums
  * @return {boolean}
  */
+// Complexity
+// Time: O(n)
+// Space: O(n)
 export const containsDuplicate = function (nums) {
   if (nums.length <= 1) return false;
   let hash = {};
