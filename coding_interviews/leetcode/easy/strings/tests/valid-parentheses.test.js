@@ -1,5 +1,5 @@
 import { it, expect, describe } from "vitest";
-import { validParentheses } from "coding_interviews/leetcode/easy/valid-parentheses";
+import { validParentheses } from "coding_interviews/leetcode/easy/strings/valid-parentheses";
 
 describe("valid Parentheses", () => {
   it("s=() ----->  true", () => {
