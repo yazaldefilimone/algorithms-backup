@@ -8,7 +8,9 @@ export const checkPermutation = (setence1, setence2) => {
   }
 
   for (let index = 0; index < setence2.length; index++) {
-    if (!hash[setence2[index]]) {
+    if (hash[setence2[index]]) {
+      hash[setence2[index]] = false;
+    } else {
       return false;
     }
   }

@@ -10,6 +10,7 @@ describe("checking for permutations between strings", () => {
 
   it("should return true because one string is permutation the other", () => {
     expect(checkPermutation("god", "dog")).toBe(true);
+    expect(checkPermutation("god", "doo")).toBe(false);
     expect(checkPermutation("ABC", "CBA")).toBe(true);
     expect(checkPermutation("BAC", "ABC")).toBe(true);
   });
