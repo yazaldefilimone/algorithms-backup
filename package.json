@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "test": "vitest ",
     "test:ci": "vitest ./coding_interviews",
     "test:cs": "vitest ./computer_science",
     "test:cp": "vitest ./competitive_programming",
