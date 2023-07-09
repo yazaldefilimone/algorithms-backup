@@ -13,16 +13,16 @@
 
 ### Data Structures
 
-- [x] Arrays
-- [x] Graphs
-- [x] Linked List
-- [x] Doubly Linked List
-- [x] Queue
-- [x] Stack
-- [x] Hash Table
-- [x] Tree
-- [x] Binary Search Tree
-- [x] Graph
+- [x] [Array](/computer_science/data-structure/arrays/array.js)
+- [x] [Graphs](/computer_science/data-structure/graphs/graph.js)
+- [x] [Linked List](/computer_science/data-structure/linked-list/linked-list.js)
+- [x] [Doubly Linked List](/computer_science/data-structure/linked-list/doubly-linked-list.js)
+- [x] [Queue](/computer_science/data-structure/queue/queue.js)
+- [x] [Stack](/computer_science/data-structure/stack/stack.js)
+- [x] [Hash Table](/computer_science/data-structure/hash-table/hash-table.js)
+- [x] [Tree](/computer_science/data-structure/tree/tree.js)
+- [x] [Binary Search Tree](/computer_science/data-structure/tree/binary-search-tree.js)
+- [x] [Graph](/computer_science/data-structure/graphs/graph.js)
 - [ ] Heap - max and min heap versions
 - [ ] Priority Queue
 - [ ] Trie
@@ -38,11 +38,11 @@
 
 - Sorting:
 
-- [x] Bubble Sort
-- [x] Selection Sort
-- [x] Insertion Sort
-- [x] Merge Sort
-- [x] Quick Sort
+- [x] [Bubble Sort](/computer_science/algorithms/sorting/bubble-sort.js)
+- [x] [Selection Sort](/computer_science/algorithms/sorting/selection-sort.js)
+- [x] [Insertion Sort](/computer_science/algorithms/sorting/insertion-sort.js)
+- [x] [Merge Sort](/computer_science/algorithms/sorting/merge-sort.js)
+- [x] [Quick Sort](/computer_science/algorithms/sorting/quick-sort.js)
 - [ ] Radix Sort
 - [ ] Bucket Sort
 - [ ] Heap Sort
@@ -51,8 +51,8 @@
 
 - Trees/Graphs:
 
-- [x] Depth-First Search (DFS)
-- [x] Breadth-First Search (BFS)
+- [x] [Depth-First Search (DFS)](/computer_science/algorithms/trees-graphs/depth-first-search.js)
+- [x] [Breadth-First Search (BFS)](/computer_science/algorithms/trees-graphs/breadth-first-search.js)
 - [ ] Kruskal’s Algorithm
 - [ ] Dijkstra Algorithm
 - [ ] Bellman-Ford Algorithm
@@ -70,67 +70,66 @@
 ### Coding Interview
 
 - strings
-  - [x] is-subsequence
-  - [x] find-the-index-of-the-first-occurrence-in-a-string
-  - [x] remove-duplicates-from-sorted-array
-  - [x] longest-common-prefix
-  - [x] valid-anagram
-  - [x] roman
-  - [x] remove-element
-  - [x] length-of-last-word
-  - [x] palindrome
-  - [x] valid-parentheses
+  - [x] [is-subsequence](/coding_interviews/leetcode/easy/strings/is-subsequence.js)
+  - [x] [find-the-index-of-the-first-occurrence-in-a-string](/coding_interviews/leetcode/easy/strings/find-the-index-of-the-first-occurrence-in-a-string.js)
+  - [x] [remove-duplicates-from-sorted-array](/coding_interviews/leetcode/easy/strings/remove-duplicates-from-sorted-array.js)
+  - [x] [longest-common-prefix](/coding_interviews/leetcode/easy/strings/longest-common-prefix.js)
+  - [x] [valid-anagram](/coding_interviews/leetcode/easy/strings/valid-anagram.js)
+  - [x] [roman](/coding_interviews/leetcode/easy/strings/roman.js)
+  - [x] [remove-element](/coding_interviews/leetcode/easy/strings/remove-element.js)
+  - [x] [length-of-last-word](/coding_interviews/leetcode/easy/strings/length-of-last-word.js)
+  - [x] [palindrome](/coding_interviews/leetcode/easy/strings/palindrome.js)
+  - [x] [valid-parentheses](/coding_interviews/leetcode/easy/strings/valid-parentheses.js)
 - array
-  - [x] plus-one
-  - [x] contains-duplicate
-  - [x] two-sum
-  - [x] search-insert-position
-  - [x] merge-sorted-array
-  - [x] transpose-matrix
-  - [x] move-zeroes
-  - [x] array-prototype-last
-  - [x] maximum-subarray
-  - [x] three-sum
-  - [x] rotate-array
-  - [x] three-number-sum
+  - [x] [plus-one](/coding_interviews/leetcode/easy/array/plus-one.js)
+  - [x] [contains-duplicate](/coding_interviews/leetcode/easy/array/contains-duplicate.js)
+  - [x] [two-sum](/coding_interviews/leetcode/easy/array/two-sum.js)
+  - [x] [search-insert-position](/coding_interviews/leetcode/easy/array/search-insert-position.js)
+  - [x] [merge-sorted-array](/coding_interviews/leetcode/easy/array/merge-sorted-array.js)
+  - [x] [transpose-matrix](/coding_interviews/leetcode/easy/array/transpose-matrix.js)
+  - [x] [move-zeroes](/coding_interviews/leetcode/easy/array/move-zeroes.js)
+  - [x] [array-prototype-last](/coding_interviews/leetcode/easy/array/array-prototype-last.js)
+  - [x] [maximum-subarray](/coding_interviews/leetcode/easy/array/maximum-subarray.js)
+  - [x] [three-sum](/coding_interviews/leetcode/easy/array/three-sum.js)
+  - [x] [rotate-array](/coding_interviews/leetcode/easy/array/rotate-array.js)
+  - [x] [three-number-sum](/coding_interviews/leetcode/easy/array/three-number-sum.js)
 - tree
-  - [x] evaluate-expression-tree
-  - [x] node-depths
-  - [x] find-closest-value-in-bst
+  - [x] [evaluate-expression-tree](/coding_interviews/leetcode/easy/tree/evaluate-expression-tree.js)
+  - [x] [node-depths](/coding_interviews/leetcode/easy/tree/node-depths.js)
+  - [x] [find-closest-value-in-bst](/coding_interviews/leetcode/easy/tree/find-closest-value-in-bst.js)
   - [ ] invert-binary-tree
-  - [x] branch-sums
+  - [x] [branch-sums](/coding_interviews/leetcode/easy/tree/branch-sums.js)
 - linked-list
-  - [x] reverse-linked-list
-  - [x] middle-of-the-linked-list
-  - [x] remove-duplicates-from-sorted-list
+  - [x] [reverse-linked-list](/coding_interviews/leetcode/easy/linked-list/reverse-linked-list.js)
+  - [x] [middle-of-the-linked-list](/coding_interviews/leetcode/easy/linked-list/middle-of-the-linked-list.js)
+  - [x] [remove-duplicates-from-sorted-list](/coding_interviews/leetcode/easy/linked-list/remove-duplicates-from-sorted-list.js)
 - hash-table
-  - [x] longest-substring-without-repeating-characters
-  - [x] longest-palindrome
-  - [x] group-anagrams
+  - [x] [longest-substring-without-repeating-characters](/coding_interviews/leetcode/easy/hash-table/longest-substring-without-repeating-characters.js)
+  - [x] [longest-palindrome](/coding_interviews/leetcode/medium/strings/longest-palindrome.js)
+  - [x] [group-anagrams](/coding_interviews/leetcode/medium/strings/group-anagrams.js)
 - linked-list
-  - [x] merge-two-sorted-lists
+  - [x] [merge-two-sorted-lists](/coding_interviews/leetcode/easy/linked-list/merge-two-sorted-lists.js)
 - dynamic-programming
-  - [x] jump-game
-  - [x] longest-increasing-subsequence
-  - [x] house-robber
-  - [x] climbing-stairs
+  - [x] [jump-game](/coding_interviews/leetcode/medium/dynamic-programming/jump-game.js)
+  - [x] [longest-increasing-subsequence](/coding_interviews/leetcode/medium/dynamic-programming/longest-increasing-subsequence.js)
+  - [x] [house-robber](/coding_interviews/leetcode/medium/dynamic-programming/house-robber.js)
+  - [x] [climbing-stairs](/coding_interviews/leetcode/easy/dynamic-programming/climbing-stairs.js)
 - interview-questions
-  - [x] three-number-sum
-  - [x] sorted-squared-array
-  - [x] validate-subsequence
-  - [x] tournament-winner
-  - [x] two-number-sum
-  - [x] check-permutation
-  - [x] node-depths
-  - [x] find-closest-value-in-bst
-  - [x] non-constructible-change
-  - [x] sum-branch
-  - [x] three-number-sum
-  - [x] the-king-of-frankia
-  - [x] bicycle-parking-rank
-  - [x] processing-plane-seat-reservations
-  - [x] dinner
-  - [x] smallest-positive-integer
+  - [x] [three-number-sum](/coding_interviews/interview-questions/medium/three-number-sum.js)
+  - [x] [sorted-squared-array](/coding_interviews/interview-questions/easy/sorted-squared-array.js)
+  - [x] [validate-subsequence](/coding_interviews/interview-questions/easy/validate-subsequence.js)
+  - [x] [tournament-winner](/coding_interviews/interview-questions/easy/tournament-winner.js)
+  - [x] [two-number-sum](/coding_interviews/interview-questions/easy/two-number-sum.js)
+  - [x] [check-permutation](/coding_interviews/interview-questions/easy/check-permutation.js)
+  - [x] [node-depths](/coding_interviews/interview-questions/easy/node-depths.js)
+  - [x] [find-closest-value-in-bst](/coding_interviews/interview-questions/easy/find-closest-value-in-bst.js)
+  - [x] [non-constructible-change](/coding_interviews/interview-questions/easy/non-constructible-change.js)
+  - [x] [sum-branch](/coding_interviews/interview-questions/easy/sum-branch.js)
+  - [x] [the-king-of-frankia](/coding_interviews/codility/the-king-of-frankia.js)
+  - [x] [bicycle-parking-rank](/coding_interviews/codility/bicycle-parking-rank.js)
+  - [x] [processing-plane-seat-reservations](/coding_interviews/codility/processing-plane-seat-reservations.js)
+  - [x] [dinner](/coding_interviews/codility/dinner.js)
+  - [x] [smallest-positive-integer](/coding_interviews/codility/smallest-positive-integer.js)
 
 ### Math
 
