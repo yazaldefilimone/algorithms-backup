@@ -67,6 +67,92 @@
 - [ ] Strongly Connected Components
 - [ ] Travelling Salesman Problem
 
+### Coding Interview
+
+### Easy
+
+- strings
+  - [x] is-subsequence
+  - [x] find-the-index-of-the-first-occurrence-in-a-string
+  - [x] remove-duplicates-from-sorted-array
+  - [x] longest-common-prefix
+  - [x] valid-anagram
+  - [x] roman
+  - [x] remove-element
+  - [x] length-of-last-word
+  - [x] palindrome
+  - [x] valid-parentheses
+- array
+  - [x] plus-one
+  - [x] contains-duplicate
+  - [x] two-sum
+  - [x] search-insert-position
+  - [x] merge-sorted-array
+  - [x] transpose-matrix
+  - [x] move-zeroes
+  - [x] array-prototype-last
+- tree
+  - [x] evaluate-expression-tree
+- linked-list
+  - [x] reverse-linked-list
+  - [x] middle-of-the-linked-list
+  - [x] remove-duplicates-from-sorted-list
+- hash-table
+  - [x] longest-substring-without-repeating-characters
+  - [x] longest-palindrome
+  - [x] group-anagrams
+- array
+  - [x] maximum-subarray
+  - [x] three-sum
+  - [x] rotate-array
+- dynamic-programming
+  - [x] climbing-stairs
+- linked-list
+  - [x] merge-two-sorted-lists
+- array
+  - [x] three-number-sum
+- dynamic-programming
+  - [x] jump-game
+  - [x] longest-increasing-subsequence
+  - [x] house-robber
+- codility
+  - [x] the-king-of-frankia
+  - [x] bicycle-parking-rank
+  - [x] processing-plane-seat-reservations
+  - [x] dinner
+  - [x] smallest-positive-integer
+- interview-questions
+  - [x] sorted-squared-array
+  - [x] validate-subsequence
+  - [x] tournament-winner
+  - [x] two-number-sum
+  - [x] check-permutation
+  - [x] node-depths
+  - [x] find-closest-value-in-bst
+  - [x] non-constructible-change
+  - [x] sum-branch
+  - [x] three-number-sum
+
+### Medium
+
+- array
+  - [x] three-number-sum
+- dynamic-programming
+  - [x] jump-game
+  - [x] longest-increasing-subsequence
+  - [x] house-robber
+- interview-questions
+  - [x] three-number-sum
+
+### Hard
+
+- dynamic-programming
+  - [x] jump-game
+  - [x] longest-increasing-subsequence
+  - [x] house-robber
+- interview-questions
+  - [x] three-number-sum
+
 ### Math
 
 - [ ] Bit Manipulation - set/get/update/clear bits, multiplication/division by two, make negative etc.
@@ -91,36 +177,6 @@
 - [ ] Liu Hui π Algorithm - approximate π calculations based on N-gons
 - [ ] Discrete Fourier Transform - decompose a function of time (a signal) into the frequencies that make it up
 
-### Dynamic Programming
-
-- [ ] Fibonacci Number
-- [ ] Jump Game
-- [ ] Unique Paths
-- [ ] Rain Terraces - trapping rain water problem
-- [ ] Recursive Staircase - count the number of ways to reach to the top
-- [ ] Seam Carving - content-aware image resizing algorithm
-- [ ] Levenshtein Distance - minimum edit distance between two sequences
-- [ ] Longest Common Subsequence (LCS)
-- [ ] Longest Common Substring
-- [ ] Longest Increasing Subsequence
-- [ ] Shortest Common Supersequence
-- [ ] 0/1 Knapsack Problem
-- [ ] Integer Partition
-- [ ] Maximum Subarray
-- [ ] Bellman-Ford Algorithm - finding the shortest path to all graph vertices
-- [ ] Floyd-Warshall Algorithm - find the shortest paths between all pairs of vertices
-- [ ] Regular Expression Matching
-
-### Backtracking
-
-- [ ] Jump Game
-- [ ] Unique Paths
-- [ ] Power Set - all subsets of a set
-- [ ] Hamiltonian Cycle - Visit every vertex exactly once
-- [ ] N-Queens Problem
-- [ ] Knight's Tour
-- [ ] Combination Sum - find all combinations that form specific sum
-
 ### Cryptography
 
 - [ ] Polynomial Hash - rolling hash function based on polynomial
@@ -143,6 +199,8 @@
 
 - [ ] Genetic algorithm
 
-  [MIT](https://github.com/yazaldefilimonepinto/algorithms/blob/main/LICENSE) © [Yazalde Filimone](https://www.linkedin.com/in/yazalde-filimone/)
+### License
+
+[MIT](https://github.com/yazaldefilimonepinto/algorithms/blob/main/LICENSE) © [Yazalde Filimone](https://www.linkedin.com/in/yazalde-filimone/)
 
 </samp>
