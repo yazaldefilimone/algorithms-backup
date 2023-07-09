@@ -38,11 +38,11 @@
 
 - Sorting:
 
-- [x] [Bubble Sort](/computer_science/algorithms/sorting/bubble-sort.js)
-- [x] [Selection Sort](/computer_science/algorithms/sorting/selection-sort.js)
-- [x] [Insertion Sort](/computer_science/algorithms/sorting/insertion-sort.js)
-- [x] [Merge Sort](/computer_science/algorithms/sorting/merge-sort.js)
-- [x] [Quick Sort](/computer_science/algorithms/sorting/quick-sort.js)
+- [x] [Bubble Sort](/computer_science/algorithms/bubble-sort/bubble-sort.js)
+- [x] [Selection Sort](/computer_science/algorithms/selection-sort/selection-sort.js)
+- [x] [Insertion Sort](/computer_science/algorithms/insertion-sort/insertion-sort.js)
+- [x] [Merge Sort](/computer_science/algorithms/merge-sort/merge-sort.js)
+- [x] [Quick Sort](/computer_science/algorithms/quick-sort/quick-sort.js)
 - [ ] Radix Sort
 - [ ] Bucket Sort
 - [ ] Heap Sort
@@ -51,8 +51,8 @@
 
 - Trees/Graphs:
 
-- [x] [Depth-First Search (DFS)](/computer_science/algorithms/trees-graphs/depth-first-search.js)
-- [x] [Breadth-First Search (BFS)](/computer_science/algorithms/trees-graphs/breadth-first-search.js)
+- [x] [Depth-First Search (DFS)](/computer_science/algorithms/graphs/depth-first-search/depth-first-search.js)
+- [x] [Breadth-First Search (BFS)](/computer_science/algorithms/graphs/breadth-first-search/breadth-first-search.js)
 - [ ] Kruskal’s Algorithm
 - [ ] Dijkstra Algorithm
 - [ ] Bellman-Ford Algorithm
