@@ -174,10 +174,6 @@
 - [ ] Seam Carving
 - [ ] Weighted Random
 
-### Evolutionary algorithms
-
-- [ ] Genetic algorithm
-
 ### License
 
 [MIT](https://github.com/yazaldefilimonepinto/algorithms/blob/main/LICENSE) © [Yazalde Filimone](https://www.linkedin.com/in/yazalde-filimone/)
