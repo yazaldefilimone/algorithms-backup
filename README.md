@@ -69,8 +69,6 @@
 
 ### Coding Interview
 
-### Easy
-
 - strings
   - [x] is-subsequence
   - [x] find-the-index-of-the-first-occurrence-in-a-string
@@ -91,8 +89,16 @@
   - [x] transpose-matrix
   - [x] move-zeroes
   - [x] array-prototype-last
+  - [x] maximum-subarray
+  - [x] three-sum
+  - [x] rotate-array
+  - [x] three-number-sum
 - tree
   - [x] evaluate-expression-tree
+  - [x] node-depths
+  - [x] find-closest-value-in-bst
+  - [ ] invert-binary-tree
+  - [x] branch-sums
 - linked-list
   - [x] reverse-linked-list
   - [x] middle-of-the-linked-list
@@ -101,27 +107,15 @@
   - [x] longest-substring-without-repeating-characters
   - [x] longest-palindrome
   - [x] group-anagrams
-- array
-  - [x] maximum-subarray
-  - [x] three-sum
-  - [x] rotate-array
-- dynamic-programming
-  - [x] climbing-stairs
 - linked-list
   - [x] merge-two-sorted-lists
-- array
-  - [x] three-number-sum
 - dynamic-programming
   - [x] jump-game
   - [x] longest-increasing-subsequence
   - [x] house-robber
-- codility
-  - [x] the-king-of-frankia
-  - [x] bicycle-parking-rank
-  - [x] processing-plane-seat-reservations
-  - [x] dinner
-  - [x] smallest-positive-integer
+  - [x] climbing-stairs
 - interview-questions
+  - [x] three-number-sum
   - [x] sorted-squared-array
   - [x] validate-subsequence
   - [x] tournament-winner
@@ -132,26 +126,11 @@
   - [x] non-constructible-change
   - [x] sum-branch
   - [x] three-number-sum
-
-### Medium
-
-- array
-  - [x] three-number-sum
-- dynamic-programming
-  - [x] jump-game
-  - [x] longest-increasing-subsequence
-  - [x] house-robber
-- interview-questions
-  - [x] three-number-sum
-
-### Hard
-
-- dynamic-programming
-  - [x] jump-game
-  - [x] longest-increasing-subsequence
-  - [x] house-robber
-- interview-questions
-  - [x] three-number-sum
+  - [x] the-king-of-frankia
+  - [x] bicycle-parking-rank
+  - [x] processing-plane-seat-reservations
+  - [x] dinner
+  - [x] smallest-positive-integer
 
 ### Math
 
