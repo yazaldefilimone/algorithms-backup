@@ -130,7 +130,8 @@
   - [x] [processing-plane-seat-reservations](/coding_interviews/codility/processing-plane-seat-reservations.js)
   - [x] [dinner](/coding_interviews/codility/dinner.js)
   - [x] [smallest-positive-integer](/coding_interviews/codility/smallest-positive-integer.js)
-  - [x] [depth first search](coding_interviews/interview-questions/easy/depth-first-search.js)
+  - [x] [depth-first-search](coding_interviews/interview-questions/easy/depth-first-search.js)
+  - [x] [minimum-waiting-time](coding_interviews/interview-questions/easy/minimum-waiting-time.js)
 
 ### Math
 
