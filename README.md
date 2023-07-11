@@ -132,6 +132,7 @@
   - [x] [smallest-positive-integer](/coding_interviews/codility/smallest-positive-integer.js)
   - [x] [depth-first-search](coding_interviews/interview-questions/easy/depth-first-search.js)
   - [x] [minimum-waiting-time](coding_interviews/interview-questions/easy/minimum-waiting-time.js)
+  - [x] [class-photos](coding_interviews/interview-questions/easy/class-photos.js)
 
 ### Math
 
