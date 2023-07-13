@@ -135,6 +135,7 @@
   - [x] [class-photos](coding_interviews/interview-questions/easy/class-photos.js)
   - [x] [tandem-bicycle](coding_interviews/interview-questions/easy/tandem-bicycle.js)
   - [x] [remove-duplicates-from-linked-list](coding_interviews/interview-questions/easy/remove-duplicates-from-linked-list.js)
+  - [x] [middle Node](coding_interviews/interview-questions/easy/middle-node.js)
 
 ### Math
 
