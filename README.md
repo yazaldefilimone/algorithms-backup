@@ -133,6 +133,7 @@
   - [x] [depth-first-search](coding_interviews/interview-questions/easy/depth-first-search.js)
   - [x] [minimum-waiting-time](coding_interviews/interview-questions/easy/minimum-waiting-time.js)
   - [x] [class-photos](coding_interviews/interview-questions/easy/class-photos.js)
+  - [x] [tandem-bicycle](coding_interviews/interview-questions/easy/tandem-bicycle.js)
 
 ### Math
 
