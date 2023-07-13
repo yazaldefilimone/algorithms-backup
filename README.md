@@ -23,9 +23,9 @@
 - [x] [Tree](/computer_science/data-structure/tree/tree.js)
 - [x] [Binary Search Tree](/computer_science/data-structure/tree/binary-search-tree.js)
 - [x] [Graph](/computer_science/data-structure/graphs/graph.js)
-- [ ] Heap - max and min heap versions
+- [x] [Min Heap](/computer_science/data-structure/heap/min-heap.js)
+- [ ] Max Heap
 - [ ] Priority Queue
-- [ ] Trie
 - [ ] AVL Tree
 - [ ] Red-Black Tree
 - [ ] Segment Tree
