@@ -81,6 +81,7 @@
   - [x] [palindrome](/coding_interviews/leetcode/easy/strings/palindrome.js)
   - [x] [valid-parentheses](/coding_interviews/leetcode/easy/strings/valid-parentheses.js)
   - [x] [valid-palindrome](/coding_interviews/leetcode/easy/strings/valid-palindrome.js)
+  - [x] [valid-palindrome-ii](/coding_interviews/leetcode/easy/strings/valid-palindrome-ii.js)
 - array
   - [x] [plus-one](/coding_interviews/leetcode/easy/array/plus-one.js)
   - [x] [contains-duplicate](/coding_interviews/leetcode/easy/array/contains-duplicate.js)
