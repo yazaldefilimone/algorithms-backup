@@ -80,6 +80,7 @@
   - [x] [length-of-last-word](/coding_interviews/leetcode/easy/strings/length-of-last-word.js)
   - [x] [palindrome](/coding_interviews/leetcode/easy/strings/palindrome.js)
   - [x] [valid-parentheses](/coding_interviews/leetcode/easy/strings/valid-parentheses.js)
+  - [x] [valid-palindrome](/coding_interviews/leetcode/easy/strings/valid-palindrome.js)
 - array
   - [x] [plus-one](/coding_interviews/leetcode/easy/array/plus-one.js)
   - [x] [contains-duplicate](/coding_interviews/leetcode/easy/array/contains-duplicate.js)
