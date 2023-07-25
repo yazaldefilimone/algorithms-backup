@@ -20,7 +20,7 @@ export function letterCombinationsPhoneNumber(digits) {
       output.push(combination)
     } else {
       const digit = nextDigits.substring(0, 1)
-      const letters = HashMap[digit]
+      const letters = HashMap[digit] || []
       for (let i = 0; i < letters.length; i++) {
         const letter = letters[i]
         backtrack(combination + letter, nextDigits.substring(1))
