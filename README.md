@@ -139,6 +139,9 @@
   - [x] [remove-duplicates-from-linked-list](coding_interviews/interview-questions/easy/remove-duplicates-from-linked-list.js)
   - [x] [middle-node](coding_interviews/interview-questions/easy/middle-node.js)
   - [x] [smallest-difference](coding_interviews/interview-questions/easy/smallest-difference.js)
+  - [x] [letter Combinations Phone Number](coding_interviews/leetcode/medium/letter-combinations-of-a-phone-number.js)
+  - [x] [best time to buy and sell stock](coding_interviews/leetcode/easy/best-time-to-buy-and-sell-stock.js)
+  - [x] [merge-k-sorted-lists](coding_interviews/leetcode/hard/merge-k-sorted-lists.js)
 
 ### Math
 
