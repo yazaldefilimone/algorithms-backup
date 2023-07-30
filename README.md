@@ -142,6 +142,7 @@
   - [x] [letter Combinations Phone Number](coding_interviews/leetcode/medium/letter-combinations-of-a-phone-number.js)
   - [x] [best time to buy and sell stock](coding_interviews/leetcode/easy/best-time-to-buy-and-sell-stock.js)
   - [x] [merge-k-sorted-lists](coding_interviews/leetcode/hard/merge-k-sorted-lists.js)
+  - [x] [move-element-to-end](coding_interviews/interview-questions/medium/move-element-to-end.js)
 
 ### Math
 
