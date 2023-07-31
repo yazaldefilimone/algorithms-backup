@@ -143,6 +143,7 @@
   - [x] [best time to buy and sell stock](coding_interviews/leetcode/easy/best-time-to-buy-and-sell-stock.js)
   - [x] [merge-k-sorted-lists](coding_interviews/leetcode/hard/merge-k-sorted-lists.js)
   - [x] [move-element-to-end](coding_interviews/interview-questions/medium/move_element_to_end/move-element-to-end.js)
+  - [x] [monotonic-array](coding_interviews/interview-questions/medium/monotonic-array.js)
 
 ### Math
 
