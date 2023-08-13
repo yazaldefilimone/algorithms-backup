@@ -144,6 +144,8 @@
   - [x] [merge-k-sorted-lists](coding_interviews/leetcode/hard/merge-k-sorted-lists.js)
   - [x] [move-element-to-end](coding_interviews/interview-questions/medium/move_element_to_end/move-element-to-end.js)
   - [x] [monotonic-array](coding_interviews/interview-questions/medium/monotonic-array.js)
+  - [x] [spiral-matrix](/home/yazaldefilimone/www/learnspace/algorithms/coding_interviews/leetcode/medium/spiral-matrix.js)
+  - [x] [spiral-traverse](/home/yazaldefilimone/www/learnspace/algorithms/coding_interviews/interview-questions/medium/spiral-traverse.js)
 
 ### Math
 
