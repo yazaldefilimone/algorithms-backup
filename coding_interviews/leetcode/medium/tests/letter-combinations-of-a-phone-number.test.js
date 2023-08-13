@@ -1,5 +1,5 @@
 import { it, expect, describe } from 'vitest'
-import { letterCombinationsPhoneNumber } from './letter-combinations-of-a-phone-number'
+import { letterCombinationsPhoneNumber } from '../letter-combinations-of-a-phone-number'
 
 describe('letter-combinations-of-a-phone-number', () => {
   it('should return ["ad","ae","af","bd","be","bf","cd","ce","cf"]', () => {
