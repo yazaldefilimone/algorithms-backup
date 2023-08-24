@@ -146,8 +146,8 @@
   - [x] [monotonic-array](coding_interviews/interview-questions/medium/monotonic-array.js)
   - [x] [spiral-matrix](/home/yazaldefilimone/www/learnspace/algorithms/coding_interviews/leetcode/medium/spiral-matrix.js)
   - [x] [spiral-traverse](/home/yazaldefilimone/www/learnspace/algorithms/coding_interviews/interview-questions/medium/spiral-traverse.js)
-  - [x](binary-tree-inorder-traversal)[coding_interviews/leetcode/easy/tree/binary-tree-inorder-traversal.js]
-  - [x](/merge-sorted-array)[coding_interviews/leetcode/easy/array/merge-sorted-array.js]
+  - [x] [binary-tree-inorder-traversal](coding_interviews/leetcode/easy/tree/binary-tree-inorder-traversal.js)
+  - [x] [/merge-sorted-array](coding_interviews/leetcode/easy/array/merge-sorted-array.js)
 
 ### Math
 
