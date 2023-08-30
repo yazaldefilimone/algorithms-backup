@@ -1,6 +1,6 @@
 
 // Time: O(n) || Space: O(d) where d is the greatest depth of special arrays
-function productSum(array, depth = 1, result = 0) {
+export function productSum(array, depth = 1, result = 0) {
   let idx = 0
   while (idx < array.length) {
     if (typeof array[idx] !== "number") {
@@ -16,7 +16,7 @@ function productSum(array, depth = 1, result = 0) {
   return result
 }
 //  Time: O(n) || Space: O(d) where d is the greatest depth of special arrays
-function productSumSecond(array, depth = 1, result = 0) {
+export function productSumSecond(array, depth = 1, result = 0) {
   if (array.length == 0) {
     return result
   }
