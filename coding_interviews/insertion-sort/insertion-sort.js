@@ -1,3 +1,4 @@
+// Time: (n^2) || Space: (1)
 export function insertionSort(array) {
   let step_fast = 1;
   let step_slow = 0;
