@@ -1,8 +1,6 @@
 <samp>
 
-**NB:** All data structures implement from scratch without using an existing structure, and I intend to reuse them in the algorithms
-
-- You can see my past [Problem Solver](/2023_09_algorithms)
+- You can see my past [Problem Solver and studies](/2023_09_algorithms)
 
 ### Technical
 
