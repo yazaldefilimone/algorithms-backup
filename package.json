@@ -10,12 +10,16 @@
     "test:cp": "vitest ./competitive_programming",
     "coverage:ci": "vitest run --coverage ./coding_interviews",
     "coverage:cs": "vitest run --coverage ./computer_science",
-    "coverage:cp": "vitest run --coverage ./competitive_programming"
+    "coverage:cp": "vitest run --coverage ./competitive_programming",
+    "exc": "tsx "
   },
   "repository": "git@github.com:yazaldefilimonepinto/algorithms.git",
   "author": "Yazalde Filimone <yazaldefilimon@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^20.6.2",
+    "tsx": "^3.12.10",
+    "typescript": "^5.2.2",
     "vitest": "^0.31.0"
   }
 }
