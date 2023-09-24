@@ -28,3 +28,11 @@ console.log(simple_array);
 function calcPosition(index: number, elementSize: number, offset: number): number {
   return index * elementSize + offset;
 }
+
+
+
+
+
+
+
+
