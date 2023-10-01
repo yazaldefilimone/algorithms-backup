@@ -5,6 +5,9 @@
     "*.tsx": "typescriptreact",
     ".env.*": "dotenv",
     ".prettierrc": "json",
-    "iostream": "cpp"
-  }
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "random": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }
