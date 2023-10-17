@@ -1,3 +1,4 @@
+// Time: O(sqrt(n)) || space: O(1)
 export function two_crystal_balls(breaks: boolean[]): number {
   const amount = Math.floor(Math.sqrt(breaks.length));
 
