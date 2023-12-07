@@ -9,5 +9,6 @@
     "ostream": "cpp",
     "random": "cpp"
   },
-  "C_Cpp.errorSquiggles": "disabled"
+  "C_Cpp.errorSquiggles": "disabled",
+  "github.copilot.editor.enableAutoCompletions": false
 }
