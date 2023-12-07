@@ -1,4 +1,5 @@
 // O(n * m) Time || O(c)  Space
+
 function commonCharacters(strings) {
   if (strings.length === 1) {
     return [strings[0]];
@@ -32,6 +33,7 @@ function getCommonByLenOfStrings(max, table) {
 }
 
 // O(n * m) Time || O(1)  Space
+
 function commonCharactersUsingPotencialCommon(strings) {
   const smallString = getSmallString(strings);
   const potencialCommonCharacter = new Set(smallString);
